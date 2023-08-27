@@ -64,7 +64,7 @@ public class MainController {
 	return "Deleted User";
     }
     
-    @GetMapping(value = "/todolist/{userid}")
+    @GetMapping(value = "/todolist/{id}")
     public List<ToDoList> GetTodoList(@PathVariable Iterable<Long> id) {
 	return todoRepo.findAllById(id);
     }
