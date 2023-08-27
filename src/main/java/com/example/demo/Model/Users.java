@@ -3,11 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.example.demo.Model;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import org.springframework.data.annotation.Id;
+
+import java.io.Serializable;
+import javax.persistence.*;
 
 /**
  *
@@ -15,7 +13,7 @@ import org.springframework.data.annotation.Id;
  */
 
 @Entity
-public class Users {
+public class Users implements Serializable {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
