@@ -12,10 +12,10 @@ import javax.persistence.*;
  * @author Aw Boon Chen
  */
 
-@Entity
+@jakarta.persistence.Entity
 public class Users implements Serializable {
     
-    @Id
+    @jakarta.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long userID;
     
