@@ -1,12 +1,12 @@
 # project
 Test Project for a ToDoList API
 
-1.1 Running
+1.1 Running<br>
 Set up the app and run on preferred IDE.<br>
 Default URL: localhost:8080<br>
 Default DB Port: 3306
 
-1.2 Testing
+1.2 Testing<br>
 Contains 2 tables, User and ToDoList<br>
 "/users" will return all users in the database.<br>
 "/saveuser" will save user details. (username, password and email)<br>
@@ -17,7 +17,7 @@ Contains 2 tables, User and ToDoList<br>
 "/updatetodo/{id}" will update todo for the todolist item.<br>
 "/deletetodo/{id}" wll delete that todolist item.
 
-1.3 Building
+1.3 Building<br>
 Built originally using Apache Netbeans using Spring Web framework, JPA and MySQL.<br>
 JDK Version 17<br>
 MySQL Version 8.0.33
